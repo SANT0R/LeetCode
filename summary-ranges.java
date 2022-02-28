@@ -5,9 +5,8 @@ class Solution {
             int j=1;
             if((i+2)<=nums.length&&((nums[i]+1)==nums[i+1])){
                 
-                for(;j+i+1<=nums.length&&((nums[i]+j)==nums[i+j]);j++){
-                    
-                }
+                for(;j+i+1<=nums.length&&((nums[i]+j)==nums[i+j]);j++){}
+                
                 resault.add(Integer.toString(nums[i])+"->"+Integer.toString(nums[i+j-1]));
             }
             else{
